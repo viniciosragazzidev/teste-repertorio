@@ -72,7 +72,7 @@ Agora a aplicação estará disponível em **http://localhost:5173** 🚀
 
 ## 🔗 Deploy Online
 
-Se disponível, acesse a versão online do projeto [aqui](https://teste-repertorio-green.vercel.app/).
+Se disponível, acesse a versão online do projeto [aqui](https://teste-repertorio-nine.vercel.app/).
 
 ---
 

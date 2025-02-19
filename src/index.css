@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@media screen and (max-width: 620px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@theme inline {
+  --color-background: #0f0f0f;
+  --color-background-2: #151718;
+  --color-background-3: #1f2123;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  @apply bg-background;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-background-3;
+}
+
+body {
+  @apply bg-background text-white;
+}
+thead {
+  @apply bg-background-2 rounded-3xl text-left px-2;
+}
+th {
+  @apply text-sm font-semibold text-gray-400 py-2 px-2;
+}
+
+tbody {
+  @apply bg-background-3 rounded-3xl text-left px-2;
+}
+tr {
+  @apply py-2;
+}
+td {
+  @apply px-2 py-2 border-b border-background-2;
+}
+
+#aside {
+  @apply px-2;
+}
+#aside::-webkit-scrollbar {
+  width: 5px;
+  @apply bg-background;
+}
+
+#aside::-webkit-scrollbar-thumb {
+  @apply bg-background-3;
+}
